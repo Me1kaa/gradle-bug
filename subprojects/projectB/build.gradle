@@ -1,0 +1,14 @@
+dependencies {
+
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs = [
+                    'src/main/resources',
+                    "$rootDir/subprojects/projectA/src/main/resources"
+            ]
+        }
+    }
+}
